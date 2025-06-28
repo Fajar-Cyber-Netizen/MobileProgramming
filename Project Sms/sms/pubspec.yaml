@@ -1,0 +1,22 @@
+name: sms
+description: A simple Flutter app to send and receive SMS messages.
+
+publish_to: 'none' # Tidak dipublish ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.3.0
+  telephony: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
